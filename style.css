@@ -39,6 +39,7 @@ body {
     height: 45px;
     width: 100%;
     display: flex;
+    position: relative;
 }
 
 .input-data .display input {
@@ -52,4 +53,32 @@ body {
     color: #eee;
     pointer-events: none;
     user-select: none;
+}
+
+.display span {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: grey;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.display span.fas {
+    display: none;
+}
+
+.display button {
+    height: 45px;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    outline: none;
+    background: #1b1b1b;
+    border: 1px solid #444;
+    color: #999;
+    font-size: 17px;
+    font-weight: uppercase;
+    cursor: pointer;
 }
