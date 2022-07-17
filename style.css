@@ -1,5 +1,5 @@
 body {
-    background: #333;
+    background: rgb(7, 127, 219);
     color: white;
     min-height: 100vh;
     display: flex;
@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-color: #006699;
+    background-color: #4c96bc;
     padding: 3rem;
     border-radius: 1rem;
     border: 2px solid black;
